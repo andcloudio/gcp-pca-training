@@ -36,6 +36,6 @@ systemctl stop nginx
 
 - Firewall - default implicit allow ICMP, SSH, RDP
 
-- Life cycle - Provisioning, Staging, Running, Stopping, Terminated
+- Life cycle - Provisioning, Staging, Running, Repairing, Stopping, Terminated
 
 - Flexible billing - per second, automatic sustained use discount.
