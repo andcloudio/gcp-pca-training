@@ -13,9 +13,12 @@ https://cloud.google.com/compute/docs/sustained-use-discounts
 https://cloud.google.com/compute/docs/instances/instance-life-cycle
 
 ## startup script for nginx
+
+```bash
 apt-get update && apt-get install nginx -y
 systemctl enable nginx
 systemctl start nginx
+```
 
 ## shutdown script 
 systemctl stop nginx
@@ -38,4 +41,6 @@ systemctl stop nginx
 
 - Life cycle - Provisioning, Staging, Running, Repairing, Stopping, Terminated
 
-- Flexible billing - per second, automatic sustained use discount.
+- Per second billing, minimum 1 min
+
+- Discounts - sustained use, commited use, preemtiple vm.
