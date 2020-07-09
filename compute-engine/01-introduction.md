@@ -32,7 +32,7 @@ systemctl stop nginx
 
 - Persistent Disks - PD-Standard, PD-SSD
 
-- Network - default network, audo mode subnet, Private IP address and External IP.
+- Network - default network, auto mode subnet, Private IP address and External IP.
 
 - Firewall - default implicit allow ICMP, SSH, RDP
 
