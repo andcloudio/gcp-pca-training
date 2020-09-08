@@ -21,7 +21,10 @@ systemctl start nginx
 ```
 
 ## shutdown script 
+
+```bash
 systemctl stop nginx
+```
 
 ## Compute Engine
 
@@ -31,9 +34,9 @@ systemctl stop nginx
 
 - Sizes - Predefined & Custom
 
-- Predefined - Shared core, Standard, High mem, High cpu, Mega memory, Ultra memory 
+- Predefined - General Purpose, Memory Optimized, CPU Optimized 
 
-- Persistent Disks - PD-Standard, PD-SSD
+- Persistent Disks - Local SSD, PD-Standard, PD-SSD
 
 - Network - default network, auto mode subnet, Private IP address and External IP.
 
@@ -41,6 +44,5 @@ systemctl stop nginx
 
 - Life cycle - Provisioning, Staging, Running, Repairing, Stopping, Terminated
 
-- Per second billing, minimum 1 min
+- Connect to instance via ssh
 
-- Discounts - sustained use, commited use, preemtiple vm.
